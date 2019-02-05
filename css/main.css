@@ -1,7 +1,381 @@
 @charset "UTF-8";
 /*css Document */
 
+p, h1, h2, h3
+{
+	text-align: center;
+	font-family: ‘Muli’, sans-serif;
+	color: #FFF;
+}
+
 .hidden
 {
   display: none;
 }
+
+#container
+{
+	width: 960px;
+	margin: 0 auto;
+	border-left: 1px solid #959595;
+	border-right: 1px solid #959595;
+}
+
+/*header and footer*/
+/*to the top button*/
+
+#mainHeader
+{
+	height: 175px;
+	border-bottom: 1px solid #959595;
+	display: flex;
+	flex-direction: row;
+	letter-spacing: 2px;
+}
+
+#headerLogo
+{
+	width: 200px;
+	height: 104px;
+	background-color: #9abd4b;
+	margin-left: 32px;
+	margin-top: 38px;
+}
+
+#headerLogo p
+{
+	line-height: 100px;
+}
+
+#mainNav
+{
+	width: 607px;
+	height: 50px;
+	background-color: #9abd4b;
+	margin-left: 98px;
+	margin-top: 60px;
+}
+
+#mainNav h2
+{
+	line-height: 50px;
+}
+
+#topButton
+{
+	margin-left: 846px;
+	margin-top: 53px;
+	margin-bottom: 37px;
+	width: 60px;
+	height: 88px;
+	background-color: #9abd4b;
+}
+
+#topButton p
+{
+	line-height: 90px;
+}
+
+#mainFooter
+{
+	height: 308px;
+	background-color: #5d7132;
+	display: flex;
+	flex-direction: row;
+}
+
+#footerL
+{
+	width: 182px;
+	margin-left: 59px;
+	margin-top: 30px;
+	margin-right: 395px;
+	display: flex;
+	flex-direction: column;
+}
+
+#email
+{
+	height: 83px;
+	background-color: #9abd4b;
+	margin-bottom: 23px;
+}
+
+#email p
+{
+	line-height: 80px;
+}
+
+#socialMedia
+{
+	display: flex;
+	flex-direction: column;
+}
+
+#icons
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-left: 33px;
+	margin-right: 33px;
+}
+
+#socialMedia h2
+{
+	height: 36px;
+	background-color: #9abd4b;
+	margin-bottom: 7px;
+}
+
+.socialmediaIcon
+{
+	width: 52px;
+	height: 50px;
+	background-color: #9abd4b;
+}
+
+.socialmediaIcon p
+{
+	line-height: 50px;
+}
+
+#footerR
+{
+	width: 272px;
+	margin-top: 37px;
+	margin-right: 52px;
+	display: flex;
+	flex-direction: column;
+}
+
+#footerLogo
+{
+	height: 126px;
+	background-color: #9abd4b;
+	margin-bottom: 11px;
+}
+
+#footerLogo p
+{
+	line-height: 100px;
+}
+
+#copyRight
+{
+	height: 56px;
+	background-color: #9abd4b;
+}
+
+#copyRight p
+{
+	line-height: 50px;
+}
+
+/*the end of header and footer*/
+
+#TRAAnews
+{
+	display: flex;
+	flex-direction: column;	
+}
+
+#heroImage
+{
+	height: 537px;
+	background-color: #959595;
+	z-index: -3;
+	margin-bottom: 1050px;
+}
+
+#heroImage h2
+{
+	line-height: 350px;
+}
+
+#newsSection
+{
+	position: absolute;
+	margin-bottom: 215px;
+}
+
+#newsSection h2, #newsSection p
+{
+	line-height: 400px;
+}
+
+#news1
+{
+	position: absolute;
+	width: 472px;
+	height: 387px;
+	background-color: #9abd4b;
+	margin-top: 436px;
+	margin-left: 98px;
+	z-index: 2;
+}
+
+#imgTop
+{
+	position: absolute;
+	width: 560px;
+	height: 524px;
+	background-color: #676565;
+	margin-left: 216px;
+	margin-top: 488px;
+	z-index: -1;
+}
+
+#imgTop p
+{
+	text-align: right;
+	padding-right: 40px;
+}
+
+#imgBot
+{
+	position: absolute;
+	width: 560px;
+	height: 524px;
+	background-color: #4d4747;
+	z-index: 1;
+	margin-left: 106px;
+	margin-top: 957px;
+}
+
+#imgBot p
+{
+	text-align: left;
+	padding-left: 40px;
+}
+
+#news2
+{
+	position: absolute;
+	width: 472px;
+	height: 459px;
+	background-color: #9abd4b;
+	z-index: 2;
+	margin-left: 420px;
+	margin-top: 913px;
+}
+
+#newEvents
+{
+	height: 886px;
+	display: flex;
+	flex-direction: column;
+	background-color: #f5f5f5;
+}
+
+#newEvents h2
+{
+	width: 594px;
+	height: 116px;
+	background-color: #9abd4b;
+	margin-top: 29px;
+	margin-left: 190px;
+	line-height: 100px;
+}
+
+.eventsRow
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.events
+{
+	width: 262px;
+	height: 267px;
+	background-color: #676565;
+	margin-top: 44px;
+	margin-bottom: 44px;
+}
+
+.events p
+{
+	line-height: 250px;
+}
+
+#promo
+{
+	position: absolute;
+}
+
+#promoInfo
+{
+	position: absolute;
+	width: 472px;
+	height: 523px;
+	background-color: #9abd4b;
+	margin-left: 86px;
+	margin-top: 365px;
+	z-index: 1;
+}
+
+#promoInfo h2
+{
+	line-height: 350px;
+}
+
+#promoImg
+{
+	position: absolute;
+	width: 560px;
+	height: 524px;
+	background-color: #676565;
+	z-index: -1;
+	margin-left: 310px;
+	margin-top: 114px;
+}
+
+#promoImg p
+{
+	line-height: 350px;
+}
+
+#ad
+{
+	margin-top: 978px;
+	display: flex;
+	flex-direction: column;
+	margin-left: 57px;
+}
+
+#ad p, #ad h3
+{
+	line-height: 200px;
+}
+
+.adRow
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 832px;
+	margin-bottom: 22px;
+}
+
+.adIcon
+{
+	width: 209px;
+	height: 205px;
+	background-color: #9abd4b;
+}
+
+.adInfo
+{
+	width: 189px;
+	height: 205px;
+	background-color: #9abd4b;
+}
+
+.lines
+{
+	margin-top: 30px;
+	height: 150px;
+	border-left: 1px solid #959595;
+}
+
